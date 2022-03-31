@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '5675a9d5ffb154ca4f8456532165e71aea1e258d',
+        'reference' => '9877675e2f6efd0dd05fdaa7d881114dda16e86f',
         'name' => 'drupal/recommended-project',
         'dev' => true,
     ),
@@ -123,6 +123,15 @@
             'replaced' => array(
                 0 => '9.3.9',
             ),
+        ),
+        'drupal/bootstrap' => array(
+            'pretty_version' => '3.23.0',
+            'version' => '3.23.0.0',
+            'type' => 'drupal-theme',
+            'install_path' => __DIR__ . '/../../web/themes/contrib/bootstrap',
+            'aliases' => array(),
+            'reference' => '8.x-3.23',
+            'dev_requirement' => false,
         ),
         'drupal/breakpoint' => array(
             'dev_requirement' => false,
@@ -658,7 +667,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '5675a9d5ffb154ca4f8456532165e71aea1e258d',
+            'reference' => '9877675e2f6efd0dd05fdaa7d881114dda16e86f',
             'dev_requirement' => false,
         ),
         'drupal/responsive_image' => array(
